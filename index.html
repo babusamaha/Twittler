@@ -32,7 +32,36 @@
                 <button class="btn btn-success btn-lg active  button_post" id="postButton" type="submit">Post</button>
                 <button class="btn btn-success btn-lg active  button_post" id="clearButton" type="submit">Clear All Posts</button>
 
+            <!--Following Section is the user name and post filter on the right side-->
+                <div class="filter row">
+                    <p class="col-md-2">Filter:</p>
+                    <div class="form-group col-md-10">
+                        <div class="col-md-6">
+                            <label class="">User Name:</label>
+                            <input id="filterUser" type="text" value="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="">Post:</label>
+                            <input id="filterPost" type="text" value="">
+                        </div>
+                    </div>
+                </div>
 
+
+            </div>
+        </div>
+        <!--Following Section is the current username display on the left side-->
+        <div class="row">
+            <div class="col-md-2 userStatus">
+                <p>Your curreunt Username</p>
+                <p id="newName"></p>
+                <p class="a" id="newImg"></p>
+
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/wzxsYdiGqiI?autoplay=1"></iframe>
+            </div>
+            <!--Following Section is the new tweet display on the right side-->
+            <ul class="col-md-8 col-md-offset-1 newTweet" id="posts"></ul>
+        </div>
 
         <script src="js/jquery.js"></script>
         <script src="js/Twittler.js"></script>
