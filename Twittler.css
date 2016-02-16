@@ -1,0 +1,35 @@
+/*Following is the css for the header and twitter bird img on the top of the page*/
+.header {
+  background-color: #79ffff;
+  text-align: center;
+  font-size: 20px;
+  font-family: serif;
+  padding: 10px;
+}
+
+.birdimg {
+  display: block;
+  height: 50px;
+  width: 35px;
+}
+
+/*Following is the css for the tweet input and post button on the right side of the page*/
+.tweet_input {
+ background-color: #52b6ff;
+ border: 1px solid #102F45;
+ margin-top: 20px;
+ padding: 20px;
+}
+
+.button_post {
+  margin: 10px;
+}
+
+/*Following is the css for the username input on the left side of the page*/
+.tweet_username {
+  background-color: #43b9cc;
+  border: 1px solid #102F45;
+  margin-top: 20px;
+  padding: 8px;
+}
+
