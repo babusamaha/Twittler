@@ -33,3 +33,32 @@
   padding: 8px;
 }
 
+/*Following is the css for your current username on the left side of the page*/
+.userStatus {
+  background-color: #d34261;
+  border: 1px solid #102F45;
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+  margin-top: -20px;
+  padding: 8px;
+  color: #fe818b;
+}
+
+/*Following is the css for the username Anonymous on the left side of the page*/
+#newName {
+  font-size: 20px;
+  font-family: serif;
+  background-color: white;
+  border: 1px solid #102F45;
+  color: #601e2c;
+}
+
+/*Following is the css for the new tweet diplay on the right side of the page*/
+.newTweet {
+  background-color: #172b18;
+  border: 1px solid #102F45;
+  margin-top: 5px;
+  padding: 20px;
+}
+
